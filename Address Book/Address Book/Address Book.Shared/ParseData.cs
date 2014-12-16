@@ -7,6 +7,9 @@ using Windows.Web.Syndication;
 using Windows.Data.Json;
 using System.Net.Http;
 
+//This is the Model for all the online data.
+//The fields in this Model are used to parse out all the data in a json.
+//New instances of the class RootObject can be created for each online request.
 namespace Address_Book
 {
     public class ParseData

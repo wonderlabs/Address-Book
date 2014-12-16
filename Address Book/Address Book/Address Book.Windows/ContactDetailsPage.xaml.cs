@@ -17,7 +17,8 @@ using Windows.UI.Xaml.Navigation;
 namespace Address_Book
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// A page used to display the contact details of a selected user.
+    /// Once the user selects a contact, they will be directed to this page.
     /// </summary>
     public sealed partial class ContactDetailsPage : Page
     {
@@ -26,6 +27,10 @@ namespace Address_Book
             this.InitializeComponent();
         }
 
+        /// <summary>
+        /// When this page is first opened, the paramater holding the Result( or user data)
+        /// is passed in and read.
+        /// </summary>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
@@ -35,6 +40,11 @@ namespace Address_Book
                 PopulateContactDetails(result);
             }
         }
+
+        /// <summary>
+        /// This function will populate all the contact details into each field 
+        /// created in the corresponding ContactDetailsPage.xaml file.
+        /// </summary>
         private void PopulateContactDetails(Result result)
         {
             //Populate the field data
@@ -65,6 +75,9 @@ namespace Address_Book
             Cphone.Text = usr.cell;
         }
 
+        /// <summary>
+        /// When the back button is clicked, this will navigate the user to the previous page.
+        /// </summary>
         private void BackClicked(object sender, RoutedEventArgs e)
         {
             Frame frame = Window.Current.Content as Frame;

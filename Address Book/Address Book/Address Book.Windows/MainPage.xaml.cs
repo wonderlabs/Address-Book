@@ -17,19 +17,17 @@ using Windows.Web.Http;
 using Newtonsoft.Json;
 
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace Address_Book
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// This page is responsible for displaying the list of contacts when the page loads.
     /// </summary>
     public sealed partial class MainPage : Page
     {
         private HttpClient httpClient;
         private HttpResponseMessage response;
         private int numberOfResults = 25; //Set the number of contacts to load.
-        RootObject root = new RootObject();
+        RootObject root = new RootObject(); //For now, we will use one instance of RootObject.
 
         public MainPage()
         {
@@ -37,7 +35,7 @@ namespace Address_Book
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
 
-            httpClient = new HttpClient();
+            httpClient = new HttpClient(); //Create a new HttpClient which is the mechanism used to connect to the web.
 
             // Add a user-agent header
             var headers = httpClient.DefaultRequestHeaders;
@@ -46,6 +44,9 @@ namespace Address_Book
 
         }
 
+        /// <summary>
+        /// When this page is navigated to, pull the user data from the web.
+        /// </summary>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
@@ -57,13 +58,14 @@ namespace Address_Book
             response = new HttpResponseMessage();
 
             string jsonResult;
-            string numResults = numberOfResults.ToString(); //set the number of results you want
+            //Add the number of results selected above, and convert to a url
+            string numResults = numberOfResults.ToString();
             string randomUserUrl = "http://api.randomuser.me/?results={0}";
             string randomuserUrlLink = string.Format(randomUserUrl, numberOfResults);
 
             Uri url = new Uri(randomuserUrlLink, UriKind.Absolute);
 
-
+            //Send the request asynchronously to fetch the user data, and catch an exception if it fails.
             try
             {
                 response = await httpClient.GetAsync(url);
@@ -75,14 +77,17 @@ namespace Address_Book
             }
             catch (Exception ex)
             {
-
+                //TODO: Implement a better solution to ensure the program does not exit. Warn the user the data fetch failed.
                 jsonResult = "";
             }
 
-            PopulateList(jsonResult);
+            PopulateList(jsonResult); 
 
         }
 
+        /// <summary>
+        /// Bind the list named in MainPage.xaml to the data retrieved and saved in the ParseData.cs model.
+        /// </summary>
         private void PopulateList(string json)
         {
             root = JsonConvert.DeserializeObject<RootObject>(json);
@@ -92,7 +97,9 @@ namespace Address_Book
         }
 
 
-
+        /// <summary>
+        /// If the user selects a contact, open the contact details page, and send the "Result"(contact) selected to the page.
+        /// </summary>
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             // Add code to perform some action here.
