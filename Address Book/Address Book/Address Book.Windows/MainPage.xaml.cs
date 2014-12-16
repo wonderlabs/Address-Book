@@ -12,13 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-//My added libs
-using System.Net;
-using System.Runtime.Serialization.Json;
+//My added libraries
 using Windows.Web.Http;
-using System.Text;
-using System.Threading.Tasks;
-using Windows.Data.Json;
 using Newtonsoft.Json;
 
 

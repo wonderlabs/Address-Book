@@ -57,3 +57,54 @@ C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address B
 C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.Windows\obj\Debug\System.Net.Http.Formatting\pri.resfiles.intermediate
 C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.Windows\obj\Debug\System.Net.Http.Formatting\priconfig.xml
 C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.Windows\obj\Debug\System.Net.Http.Formatting\priconfig.xml.intermediate
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\App.xbf
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\ContactDetailsPage.xbf
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\MainPage.xbf
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\Address Book.Windows.xr.xml
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\Address Book.Windows.exe
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\Address Book.Windows.pdb
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\resources.pri
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\Address Book.Windows.build.appxrecipe
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\Address Book.Windows.csprojResolveAssemblyReference.cache
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\App.g.i.cs
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\App.g.cs
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\ContactDetailsPage.g.i.cs
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\ContactDetailsPage.g.cs
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\MainPage.g.i.cs
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\MainPage.g.cs
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\App.xaml
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\ContactDetailsPage.xaml
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\MainPage.xaml
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\App.xbf
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\ContactDetailsPage.xbf
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\MainPage.xbf
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\Address Book.Windows.exe
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\Address Book.Windows.pdb
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.CommonWebApiResources.resw
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.Resources.resw
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\Address Book.Windows.csproj.GenerateResource.Cache
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\System.Net.Http.Formatting.pri
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\System.Net.Http.Formatting\qualifiers.txt
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\priconfig.xml
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\layout.resfiles
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\resources.resfiles
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\pri.resfiles
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\qualifiers.txt
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.Windows\obj\Debug\ProjectArchitectures.txt

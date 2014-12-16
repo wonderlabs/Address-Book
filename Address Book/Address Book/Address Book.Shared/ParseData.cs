@@ -9,8 +9,6 @@ using System.Net.Http;
 
 namespace Address_Book
 {
-    // FeedData
-    // Holds info for a single blog feed, including a list of blog posts (FeedItem).
     public class ParseData
     {
     }

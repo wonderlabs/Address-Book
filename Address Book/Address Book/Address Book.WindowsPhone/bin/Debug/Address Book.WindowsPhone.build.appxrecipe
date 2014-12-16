@@ -7,52 +7,52 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>52e6d582-ddb7-4d8c-b61c-5f36bf677a34</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\Address Book.WindowsPhone.exe">
+    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\Address Book.WindowsPhone.exe">
       <PackagePath>Address Book.WindowsPhone.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\Address Book.WindowsPhone.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\Address Book.WindowsPhone.xr.xml">
       <PackagePath>Address Book.WindowsPhone.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Drasko\Desktop\Address Book Project\Address-Book\Address Book\Address Book\Address Book.WindowsPhone\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
