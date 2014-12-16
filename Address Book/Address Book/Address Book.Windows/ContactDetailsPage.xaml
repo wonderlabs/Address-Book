@@ -1,0 +1,129 @@
+﻿<Page
+    x:Class="Address_Book.ContactDetailsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Address_Book"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <StackPanel Margin="100">
+   
+            <Button x:Name="BackButton" Margin="20,180,0,0" Width="100" Height="50" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="BackClicked">Back</Button>
+    
+        <ScrollViewer Margin="20,20,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Profile Picture -->
+                <Image x:Name="ProfilePic" MaxWidth="300" MaxHeight="300" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+                <Grid VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Margin="20, 0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Name information -->
+                    <Grid Grid.Row="0" Grid.ColumnSpan="3" Margin="0,0,0,10">
+                        <StackPanel Orientation="Horizontal" >
+                            <TextBlock x:Name="Title" FontSize="24" FontWeight="Bold"/>
+                            <TextBlock x:Name="First" FontSize="24" FontWeight="Bold" Padding="5,0,0,0"/>
+                            <TextBlock x:Name="Last" FontSize="24" FontWeight="Bold" Padding="5,0,0,0"/>
+                        </StackPanel>
+                    </Grid>
+                    <!-- Address information -->
+                    <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0" Margin="0,0,0,10">
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="16" FontWeight="Bold">Address:</TextBlock>
+                                <TextBlock x:Name="Street" FontSize="16" Padding="10,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="16" FontWeight="Bold">City:</TextBlock>
+                                <TextBlock x:Name="City" FontSize="16" Padding="5,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="16" FontWeight="Bold">State:</TextBlock>
+                                <TextBlock x:Name="State" FontSize="16" Padding="5,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="16" FontWeight="Bold">ZIP:</TextBlock>
+                                <TextBlock x:Name="Zip" FontSize="16" Padding="5,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="1" Margin="20,0,0,0">
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="16" FontWeight="Bold">Gender:</TextBlock>
+                                <TextBlock x:Name="Gender" FontSize="16" Padding="10,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="16" FontWeight="Bold">Date of Birth:</TextBlock>
+                                <TextBlock x:Name="Dob" FontSize="16" Padding="5,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="16" FontWeight="Bold">Home Phone:</TextBlock>
+                                <TextBlock x:Name="Hphone" FontSize="16" Padding="5,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="16" FontWeight="Bold">Cell Phone:</TextBlock>
+                                <TextBlock x:Name="Cphone" FontSize="16" Padding="5,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+
+                    <!-- Username information -->
+                    <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="0">
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="16" FontWeight="Bold">Email:</TextBlock>
+                                <TextBlock x:Name="Email" FontSize="16" Padding="10,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="16" FontWeight="Bold">Username:</TextBlock>
+                                <TextBlock x:Name="Username" FontSize="16" Padding="5,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="16" FontWeight="Bold">Password:</TextBlock>
+                                <TextBlock x:Name="Password" FontSize="16" Padding="5,0,0,0"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Page>
+
